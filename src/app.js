@@ -1,6 +1,6 @@
-import React from 'react';
-import './libs/fonts';
+import React from "react";
+import "./libs/fonts";
 
-export * from './atoms';
-export * from './molecules';
-export * from './organisms';
+export * from "./layout";
+export * from "./particles";
+export * from "./templates";
