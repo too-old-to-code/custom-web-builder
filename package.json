@@ -2,7 +2,7 @@
   "name": "custom-web-builder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "prepublish": "npm run build",
     "build": "webpack",
