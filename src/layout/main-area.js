@@ -7,5 +7,5 @@ export const MainArea = styled.main`
   right: 0;
   bottom: 0;
   overflow: auto;
-  padding-top: ${props => props.theme.navbar.height};
+  margin-top: ${props => props.theme.navbar.height};
 `;

@@ -30,7 +30,7 @@ export const NavMenuComplete = props => {
 
   return (
     <React.Fragment>
-      <Navbar itemsRight={props.desktopItems} logo={props.logo} />
+      <Navbar itemsRight={props.desktopItems} logo={props.logo} center={props.center} />
       <Menu isOpen={isOpen} ref={openMenu}>
         {props.mobileItems}
       </Menu>

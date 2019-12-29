@@ -13,7 +13,7 @@ const Menu = styled.button.attrs(({ isActive, burgerStyle }) => ({
   position: fixed;
   left: 0;
   min-height: ${({ theme }) => (theme && theme.navbar && theme.navbar.height) || '54px'};
-  @media (min-width: ${({ theme }) => theme && theme.breakpoints && theme.breakpoints.mobile}) {
+  @media (min-width: ${({ theme }) => theme && theme.breakpoints && theme.breakpoints.desktop}) {
     display: none !important;
   }
 `;
