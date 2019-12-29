@@ -13,6 +13,7 @@ export const Standard = () => {
   return (
     <ThemeProvider theme={theme}>
       <NavMenuComplete
+        center
         burgerStyle="spin"
         logo={<img style={{ height: "100%" }} src={logo} />}
         desktopItems={[
