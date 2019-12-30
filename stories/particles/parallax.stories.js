@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../../src/themes/theme-1';
-import { Parallax } from '../../src/particles/parallax';
+import { Parallax } from '../../src/app';
 import { HeightMinusNavbar } from '../../src/layout';
 
 export default {
