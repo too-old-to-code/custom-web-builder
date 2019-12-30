@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
-import { NavMenuComplete, MainArea, Hero } from '../../src/layout';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../../src/themes/theme-1';
-import logo from '../../static/favicon.ico';
 import { TimeTable } from '../../src/particles/schedule-table';
 
 const MON = 'Mon';

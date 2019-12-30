@@ -9,3 +9,7 @@ export const Hero = styled.div`
   background-size: cover;
   background-position: center center;
 `;
+
+export const HeightMinusNavbar = styled.div`
+  height: calc(100vh - ${({ theme }) => theme.navbar.height});
+`;
